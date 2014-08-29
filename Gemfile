@@ -36,7 +36,7 @@ group :development do
   gem 'spring'
   gem 'better_errors'          # エラー画面を見やすくする
   gem 'pry-rails'              # railsでpryが使える
-  gem 'pry-byebug'             # pryでデバックコマンドが使える
+  gem 'pry-byebug'             # binding.pry書くとデバックできる
   gem 'binding_of_caller'
 end
 
