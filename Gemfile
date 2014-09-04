@@ -35,9 +35,11 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'better_errors'          # エラー画面を見やすくする
+  gem 'binding_of_caller'
   gem 'pry-rails'              # railsでpryが使える
   gem 'pry-byebug'             # binding.pry書くとデバックできる
-  gem 'binding_of_caller'
+  # gem 'hirb'
+  # gem 'hirb-unicode'
 end
 
 # Use ActiveModel has_secure_password
