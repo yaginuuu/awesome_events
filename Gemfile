@@ -38,6 +38,10 @@ gem 'kaminari-bootstrap', '~> 3.0.1'
 # seach
 gem 'ransack', '~> 1.2.2'
 
+# carrierwave
+gem 'carrierwave', '~> 0.10.0'
+
+
 # picture
 # gem 'carrierwave'
 
