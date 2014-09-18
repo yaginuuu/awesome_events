@@ -46,15 +46,17 @@ gem 'carrierwave', '~> 0.10.0'
 # gem 'carrierwave'
 
 
-group :development do
+group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'better_errors'          # エラー画面を見やすくする
   gem 'binding_of_caller'
   gem 'pry-rails'              # railsでpryが使える
   gem 'pry-byebug'             # binding.pry書くとデバックできる
-  # gem 'hirb'
-  # gem 'hirb-unicode'
+  gem 'hirb'
+  gem 'hirb-unicode'
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
 end
 
 # Use ActiveModel has_secure_password
