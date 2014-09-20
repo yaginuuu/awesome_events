@@ -57,6 +57,7 @@ group :development, :test do
   gem 'hirb-unicode'
   gem 'rspec-rails'
   gem 'shoulda-matchers'
+  gem 'factory_girl_rails'
 end
 
 # Use ActiveModel has_secure_password
